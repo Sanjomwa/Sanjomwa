@@ -6,6 +6,8 @@ Data engineer in Nairobi. I build data platforms for civil-liberties research, a
 
 **[CLIO](https://github.com/Sanjomwa/Civil-Liberties-Intelligence-Observatory)** (Civil Liberties Intelligence Observatory) is a method for turning heterogeneous information-control signals into validated, uncertainty-stated evidence. It is piloted in Kenya and built to extend to other countries. It joins network-interference measurements, conflict events and platform transparency data into governed data marts, and classifies every week into a pressure regime.
 
+Start here: the [CLIO live dashboard](https://civil-lliberties-intelligence-observatory-toafjdj5xoc.streamlit.app/) and the [CLIO Findings Explorer](https://cfe-frontend-prod-qf6bvfuxjq-ew.a.run.app).
+
 ```mermaid
 flowchart LR
     OONI["OONI network measurements"] --> P["Bruin pipelines on BigQuery"]
